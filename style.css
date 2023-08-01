@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+header {
+    background-color: rgb(245, 135, 0);
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+}
+
+.srchFd {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 50px;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+}
+
+.profileFd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+    gap: 25px;
+}
+
+#bigProfilePh {
+    width: 75px;
+    height: 75px;
+    background-color: aliceblue;
+    border-radius: 100px;
+    border: none;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    gap: 40px;
+}
+
+button {
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: aqua;
+}
+
+.bigProfile {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 50px;
+}
+
+.navbar {
+    background-color: aqua;
+    grid-row: 1/5;
+    display: grid;
+}
+
+.dash {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 10%;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+
+.projects {
+    background-color: blue;
+    grid-column: 2/3;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.cards {
+    height: 200px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 25px;
+}
+
+.announcment {
+    background-color: yellow;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.trd {
+    background-color: green;
+}
+
+#profilePh {
+    height: 65px;
+    width: 65px;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+.projectTitle {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
